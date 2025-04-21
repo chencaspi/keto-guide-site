@@ -1,159 +1,127 @@
+
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>מדריך קיטו אישי</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-      margin: 0;
-      padding: 0;
       direction: rtl;
-    }
-    header {
-      background-color: #fff;
       padding: 20px;
+      background: #f8f8f8;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
       text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: #2c3e50;
     }
-    nav {
-      background-color: #fff;
-      padding: 10px 0;
-      text-align: center;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #2a2a2a;
-    }
-    section {
+    .section {
+      background: #ffffff;
+      margin: 20px 0;
       padding: 20px;
-      margin: 20px;
-      background: #fff;
       border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    }
-    h2 {
-      color: #cc3366;
-      font-size: 20px;
-      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     ul {
-      list-style-type: square;
-      padding-right: 20px;
+      line-height: 1.8;
     }
-    .card {
-      margin-bottom: 15px;
-      padding: 12px;
-      background: #f9f9f9;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-    }
-    .hidden {
-      display: none;
-    }
-    .dropdown-btn {
-      cursor: pointer;
+    summary {
       font-weight: bold;
-      color: #006699;
-      margin-bottom: 6px;
+      cursor: pointer;
     }
-    .recipe-link {
-      color: #0077cc;
-      font-size: 14px;
-      text-decoration: underline;
-      margin-right: 6px;
+    details {
+      margin-bottom: 12px;
+    }
+    a.recipe {
+      color: #3498db;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
+  <h1>🍽️ מדריך קיטו אישי</h1>
 
-<header>🍽️ מדריך קיטו אישי</header>
-<nav>
-  <a href="#meals">רעיונות לארוחות</a>
-  <a href="#rules">מה מותר ומה לא</a>
-  <a href="#drinks">שתייה</a>
-  <a href="#alcohol">אלכוהול</a>
-  <a href="#desserts">קינוחים</a>
-</nav>
+  <div class="section">
+    <h2>✅ רעיונות לארוחות</h2>
+    <details open>
+      <summary>🍳 בוקר</summary>
+      <ul>
+        <li>חביתה + גבינת עיזים + סלט ירוק</li>
+        <li>2 ביצים קשות + אבוקדו + קפה שחור</li>
+        <li>יוגורט 10% עם קינמון וסטיביה</li>
+        <li>טוסט קיטו עם גבינה מותכת</li>
+        <li>גבינת שמנת + ירקות חתוכים</li>
+        <li>פרוסות גבינה קשה + מלפפון</li>
+        <li>קפה עם שמנת מתוקה</li>
+        <li>קרקר קיטו עם טחינה</li>
+        <li>פודינג צ׳יה עם חלב קוקוס</li>
+        <li>מאפינס ביצים וירקות</li>
+        <li>שקשוקה ביתית</li>
+        <li>אומלט עם פטריות</li>
+        <li>טונה + פרוסת גבינה</li>
+        <li>סלט טונה עם אבוקדו</li>
+        <li>מעדן קיטו</li>
+      </ul>
+    </details>
+    <details>
+      <summary>🥩 צהריים</summary>
+      <ul>
+        <li>סטייק פיקניה עם קישואים מוקפצים</li>
+        <li>חזה עוף בגריל עם סלט אבוקדו</li>
+        <li>קציצות בקר עם כרובית בתנור</li>
+        <li>שוקי עוף בתנור + סלט ירוק</li>
+        <li>סלמון עם ירקות מאודים</li>
+        <li>מאפינס טונה עם ירק</li>
+        <li>שניצל קיטו (קמח שקדים)</li>
+        <li>פילה דג עם קישוא אפוי</li>
+        <li>קבב טלה + טחינה</li>
+        <li>סלט יווני עם גבינה קשה</li>
+        <li>מנת שווארמה קיטו</li>
+        <li>חביתה עם גבינת עיזים</li>
+        <li>המבורגר ללא לחמנייה</li>
+        <li>קארי קוקוס עם עוף</li>
+        <li>פסטה קיטו עם רוטב שמנת</li>
+      </ul>
+    </details>
+    <details>
+      <summary>🍽️ ערב</summary>
+      <ul>
+        <li>ביצה קשה + גבינה צפתית</li>
+        <li>טוסט קיטו עם אבוקדו</li>
+        <li>סלט ירוק עם אגוזים</li>
+        <li>יוגורט 10% עם קינמון</li>
+        <li>חביתה עם עגבניות מיובשות</li>
+        <li>קרם גבינת שמנת עם קינמון</li>
+        <li>שוקולד מריר + תה צמחים</li>
+        <li>סלט ביצה עם מיונז קיטו</li>
+        <li>קוביות גבינה + ירק</li>
+        <li>מרק ירקות קיטו</li>
+        <li>בולונז על קישוא ספגטי</li>
+        <li>שקשוקה עגבניות</li>
+        <li>פלטת גבינות וירקות</li>
+        <li>אבוקדו ממולא סלט טונה</li>
+        <li>רול גבינה קיטו</li>
+      </ul>
+    </details>
+  </div>
 
-<section id="meals">
-  <h2>✅ רעיונות לארוחות</h2>
-  <div class="dropdown-btn" onclick="toggle('breakfast')">🍳 בוקר</div>
-  <ul id="breakfast" class="hidden">
-    <li>ביצה קשה + אבוקדו + קפה</li>
-    <li>2 ביצים קשות + סלט ירקות קטן</li>
-    <li>חביתה עם גבינת עיזים</li>
-    <li>שקשוקה פלפלים וביצים</li>
-    <li>קפה עם שמנת מתוקה + חטיף קיטו</li>
-    <li>גבינת שמנת + ירקות חתוכים</li>
-    <li>טוסט קיטו עם ביצה</li>
-    <li>יוגורט 10% עם קינמון</li>
-    <li>אבוקדו ממולא ביצה</li>
-    <li>גבינה קשה עם זיתים</li>
-    <li>מאפינס קיטו מלוחים</li>
-    <li>פריטטה עם ברוקולי</li>
-    <li>ביצה קשה + פרוסת גאודה</li>
-    <li>משקה שוקו קיטו</li>
-    <li>יוגורט 10% עם אגוזים</li>
-  </ul>
-</section>
-
-<section id="rules">
-  <h2>📋 מה מותר, מה במתינות ומה לא כדאי להכניס</h2>
-  <ul>
-    <li>✅ ירקות מותרים: חסה, קישוא, פטריות, ברוקולי, כרוב, מלפפון</li>
-    <li>⚠️ במתינות: גזר, עגבניות שרי, סלק</li>
-    <li>❌ לא מתאים: תפוח, בננה, ענבים, תמרים</li>
-  </ul>
-</section>
-
-<section id="drinks">
-  <h2>🥤 שתייה בקיטו</h2>
-  <ul>
-    <li>מים עם נענע / לימון</li>
-    <li>קפה עם שמנת מתוקה / חלב סויה לא ממותק</li>
-    <li>תה צמחים</li>
-    <li>סודה / סודה בטעמים ללא סוכר</li>
-  </ul>
-</section>
-
-<section id="alcohol">
-  <h2>🍷 אלכוהול בקיטו</h2>
-  <ul>
-    <li>כוס יין יבש – מותר</li>
-    <li>וודקה/וויסקי – אפשר במידה</li>
-    <li>בירות – לרוב לא מתאימות</li>
-  </ul>
-</section>
-
-<section id="desserts">
-  <h2>🍮 קינוחים</h2>
-  <ul>
-    <li>מוס שוקולד קיטו – <a class="recipe-link" href="#">לצפייה במתכון</a></li>
-    <li>קרם גבינת שמנת עם ג'לטין – <a class="recipe-link" href="#">לצפייה במתכון</a></li>
-    <li>שוקולד מריר עם שקדים – <a class="recipe-link" href="#">לצפייה במתכון</a></li>
-    <li>גלידת שמנת וקקאו – <a class="recipe-link" href="#">לצפייה במתכון</a></li>
-    <li>פודינג צ'יה עם וניל – <a class="recipe-link" href="#">לצפייה במתכון</a></li>
-    <li>קוקוס קלוי עם חמאת בוטנים – <a class="recipe-link" href="#">לצפייה במתכון</a></li>
-  </ul>
-</section>
-
-<script>
-  function toggle(id) {
-    const el = document.getElementById(id);
-    if (el.classList.contains("hidden")) {
-      el.classList.remove("hidden");
-    } else {
-      el.classList.add("hidden");
-    }
-  }
-</script>
-
+  <div class="section">
+    <h2>🍰 קינוחים</h2>
+    <details open>
+      <summary>קינוחים ביתיים קלים להכנה</summary>
+      <ul>
+        <li>מוס שוקולד קיטו: שמנת מוקצפת עם קקאו וסטיביה – <a class="recipe" href="#">לצפייה במתכון</a></li>
+        <li>קרם גבינת שמנת: גבינה שמנה עם וניל וקינמון – <a class="recipe" href="#">לצפייה במתכון</a></li>
+        <li>שוקולד מריר עם שקדים: מעל 85% קקאו – <a class="recipe" href="#">לצפייה במתכון</a></li>
+        <li>גלידת שמנת: שמנת מתוקה, מסקרפונה, וניל – <a class="recipe" href="#">לצפייה במתכון</a></li>
+        <li>חטיפי קוקוס ושוקולד: קקאו עם חמאת בוטנים – <a class="recipe" href="#">לצפייה במתכון</a></li>
+        <li>פודינג צ’יה: 2 כפות זרעי צ’יה + שמנת – <a class="recipe" href="#">לצפייה במתכון</a></li>
+        <li>מאפינס קקאו קיטו: ביצים, קקאו, שקדים טחונים – <a class="recipe" href="#">לצפייה במתכון</a></li>
+      </ul>
+    </details>
+  </div>
 </body>
 </html>
